@@ -6,6 +6,9 @@
 
 </div>
 
+## 🌐 Live Demo
+
+Check out the live version of the project here: [https://tickethunt-project.vercel.app/](https://tickethunt-project.vercel.app/)
 ## 📸 Platform Preview
 
 ### 🏠 Landing Experience
