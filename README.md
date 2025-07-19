@@ -1,6 +1,32 @@
 # Tickethunt 🎟️
 
+<div align="center">
+  
 **Tickethunt** is a real-time event ticketing platform built with **Next.js 14**, **Convex**, **Clerk**, and **Stripe Connect**. It provides secure ticket sales, smart queuing, and real-time updates for attendees and organizers.
+
+</div>
+
+## 📸 Platform Preview
+
+### 🏠 Landing Experience
+![Landing Page](./public/images/landing_page.png)
+*Modern, responsive landing page with event discovery and real-time availability*
+
+### 🎫 User Dashboard - My Tickets
+![My Tickets](./public/images/my_tickets.png)
+*Digital ticket wallet with QR codes and purchase history*
+
+### 📊 Organizer Dashboard
+![Seller Dashboard](./public/images/seller_dashboard.png)
+*Real-time sales monitoring and event management for organizers*
+
+### 🎯 Event Management
+![Manage Events](./public/images/manage_events.png)
+*Create, edit, and monitor events with advanced analytics*
+
+### 💰 Payment Processing
+![Stripe Transactions](./public/images/stripe_transactions.png)
+*Secure payment processing and transaction management*
 
 ## ⚙️ Tech Stack
 
@@ -124,6 +150,14 @@ npx shadcn-ui@latest add button card dialog toast
 3. Monitor real-time sales dashboard
 4. Process automatic payouts
 
+## 🏗️ Architecture
+
+```
+Frontend (Next.js) → Convex (Real-time Backend) → Database
+      ↓                     ↓
+Clerk (Auth)         Stripe (Payments)
+```
+
 ### Core Collections
 - **Events** - Event details, pricing, capacity
 - **Tickets** - Purchase records, QR codes
@@ -151,8 +185,3 @@ vercel --prod
 3. Commit changes: `git commit -m 'Add feature'`
 4. Push to branch: `git push origin feature/name`
 5. Submit pull request
-
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
